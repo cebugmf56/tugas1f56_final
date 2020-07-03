@@ -1,0 +1,49 @@
+.main-testimoni{
+	margin:0 auto;
+}
+
+.testimoni-title{
+	font-weight: bold;
+	text-align: center;
+}
+
+.testimoni{
+	background-color:#b19cd9;
+	margin-left:4%;
+	width: 20%;
+	height: 350px;
+	float:left;
+	text-align: center;
+}
+
+.testimoni img{
+	padding-top: 10px;
+	display: block;
+	margin:0 auto;
+	width:25%;
+	border-radius: 25%;
+}
+
+.read-more{
+	padding: auto 2px;
+}
+
+.testimoni:hover{
+	transform: scale(1.09);
+}
+
+@media screen and (max-width: 992px) {
+	.testimoni {
+		width: 50%;
+		margin: 10px 150px;
+		float: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.testimoni {
+		width: 75%;
+		margin: 10px 200px;
+		float: center;
+	}
+}

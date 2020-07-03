@@ -1,0 +1,70 @@
+body{
+  background-color: #dcdde1;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(25, 42, 86,1.0);
+  font-family:Arial;
+  positin:absolute;
+  z-index: 10;
+}
+
+li{
+  list-style: none;
+  float: left;
+  color:#718093;
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+
+.header-left{
+  line-height: 65px;
+}
+
+.header-left img{
+  height: 65px;
+  width: 90px;
+}
+
+.header-right{
+  float:right;
+  line-height: 65px;
+}
+
+.alogin{
+  color: #40739e;
+  background-color:#f5f6fa;
+  margin-right: 10px;
+  padding : 0 20px;
+}
+
+.header-right :hover{
+  background-color: #7f8fa6;
+}
+
+.login :hover{
+  background-color: #7f8fa6;
+}
+
+.btn {
+  text-lign:center;
+  float:right;
+  background-color: #f5f6fa;
+  margin :0 10px;
+  padding: 0 20px;
+  line-height: 65px;
+  display: none;
+}
+
+@media(max-widt:1000px) {
+  .btn{display:block;}
+  .kursus{display:none}
+  .pelatihan{display:none}
+  .pengembangan{display:none}
+  header{
+    font-size:15px;
+  }
+}
